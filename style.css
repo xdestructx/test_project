@@ -1,0 +1,600 @@
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+div{
+    height:100vh;
+}
+
+.header{
+    height:50vw;
+    background-image: url("images/firstscreen/bg.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+
+a{
+    color:white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#logo {
+    position: relative;
+    float:left;
+    color:white;
+    font-size: 1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    top: 1vw;
+    left:18vw;
+}
+
+.header_top{
+    height:3vw;
+}
+.header_top #logo{
+    height:3vw;
+}
+.header_top #navi{
+    height:3vw;
+}
+
+.header ul{
+    position:relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    left:21vw;
+    top:0.5vw;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    font-size: 1.17vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    display: block;
+    color: #e1e1e1;
+    text-align: center;
+    padding: 0.8vw 2.5vw;
+    text-decoration: none;
+}
+
+@media all and (min-width:0px) and (max-width:800px) {
+    #social {
+        position: relative;
+        top: -15px;
+        left:70vw;
+    }
+}
+@media all and (min-width:800px) {
+    #social {
+            position: relative;
+            top: -1.8vw;
+            left:70vw;
+        }
+}
+
+#social a{
+    padding: 0vw 1vw;
+}
+
+.first_screen{
+    position:absolute;
+    height:23vw;
+    width:30vw;
+    top:14vw;
+    left:18vw;
+}
+
+
+#label_big {
+    height:8vw;
+    width:40vw;
+    color:white;
+    font-size:3.5vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#label_small{
+    position: relative;
+    height:4vw;
+    width: 27vw;
+    top:1vw;
+    color:white;
+    font-size:1.2vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+#container{
+    position: relative;
+    top:5vw;
+    height:5vw;
+    width:30vw;
+}
+
+
+#container ul{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top:0vw;
+    left:-2.5vw;
+    height: 6vw;
+    width:40vw;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+#container li{
+    float:left;
+    top:0px;
+    margin:0;
+    padding:0px;
+    width:15vw;
+    height:5vw;
+}
+
+#container a{
+    height: 3vw;
+}
+
+.downloads{
+    position:relative;
+}
+
+.first_screen #download_txt {
+    position:relative;
+    z-index: 100;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    top:-4.8vw;
+    left:1.3vw;
+
+}
+.first_screen #features_txt {
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    top:-4.8vw;
+    left:1.3vw;
+
+}
+.first_screen img{
+    position: relative;
+    width:12.2vw;
+    height: 3.5vw;
+}
+
+.nav_button{
+    position: relative;
+    height:4.5vw;
+    width:4.5vw;
+    top:13vw;
+    left:30vw;
+}
+.nav_button img{
+    position: relative;
+    height:4.5vw;
+    width:4.5vw;
+}
+.nav_button a{
+    height:4.5vw;
+    width:4.5vw;
+}
+
+.features{
+    height:28vw;
+}
+
+.features h1{
+    position: absolute;
+    top:53vw;;
+    left: 43vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.features h2{
+    position: absolute;
+    top:56vw;;
+    left: 46.5vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+
+#features_box ul{
+    position: relative;
+    list-style-type: none;
+    float:left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:block;
+    top:13vw;
+    left:17vw;
+    height: 20vw;
+    width:80vw;
+}
+
+#features_box img{
+    position:relative;
+    float:left;
+    width:4vw;
+
+}
+
+#features_box li{
+    float:left;
+    display:block;
+    height:8vw;
+    width:22vw;
+}
+
+#features_box li strong{
+    position:relative;
+    top: 0vw;
+    left:1.3vw;
+    font-size:1.4vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #353854;
+}
+
+#features_box li h3{
+    position:relative;
+    float:left;
+    top: 0vw;
+    left:1.3vw;
+    font-size:0.8vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    color: #aeaeae;
+    width:13.5vw;
+    line-height:1.4vw;
+}
+
+.widgets{
+    height:60vw;
+}
+
+.widgets h1{
+    position: relative;
+    top:0vw;;
+    left: 43vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.widgets h2{
+    position: relative;
+    top:0vw;;
+    left: 45.8vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.widgets img{
+    position:relative;
+    top:2vw;
+    left:24vw;
+    width:52vw;
+    height:45vw;
+}
+
+.screenshots{
+    height:160vw;
+}
+
+.screenshots .screen1{
+    height:55vw;
+}
+
+.screenshots .screen1 h1{
+    position: relative;
+    top:0vw;;
+    left: 43vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.screenshots .screen1 h2{
+    position: relative;
+    top:0vw;;
+    left: 43.5vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.screenshots .screen1 img{
+    position: relative;
+    left: 15vw;
+    top:8vw;
+    float:left;
+    width:42vw;
+}
+
+.screenshots .screen1 #screenshots_icon{
+    position: relative;
+    left: 6vw;
+    top:15vw;
+    float:left;
+    width:7vw;
+}
+.screenshots .screen1 #screenshots_title{
+    position: relative;
+    top:-20vw;
+    left:48vw;
+}
+.screenshots .screen1 #screenshots_desc{
+    position:relative;
+    top:-20vw;
+    left:48vw;
+    width:20.5vw;
+    color:#353854;
+    line-height:1.5vw;
+}
+
+.screenshots .screen2{
+    height:50vw;
+}
+
+.screenshots .screen2 h1{
+    position: relative;
+    top:0vw;;
+    left: 43vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.screenshots .screen2 h2{
+    position: relative;
+    top:0vw;;
+    left: 43.5vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+
+.screenshots .screen2 img{
+    position: relative;
+    left: 15vw;
+    top:8vw;
+    float:left;
+    width:62vw;
+}
+
+.screenshots .screen2 #screenshots_icon{
+    position: relative;
+    left: -45vw;
+    top:16vw;
+    float:left;
+    width:2.8vw;
+}
+.screenshots .screen2 #screenshots_title{
+    position: relative;
+    top:-15vw;
+    left:17vw;
+}
+.screenshots .screen2 #screenshots_desc{
+    position:relative;
+    top:-15vw;
+    left:17vw;
+    width:18.8vw;
+    color:#353854;
+    line-height:1.5vw;
+}
+
+.screenshots .screen3{
+    height:55vw;
+}
+
+.screenshots .screen3 h1{
+    position: relative;
+    top:0vw;;
+    left: 43vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.screenshots .screen3 h2{
+    position: relative;
+    top:0vw;;
+    left: 43.5vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.screenshots .screen3 img{
+    position: relative;
+    left: 15vw;
+    top:8vw;
+    float:left;
+    width:42vw;
+}
+
+.screenshots .screen3 #screenshots_icon{
+    position: relative;
+    left: 6vw;
+    top:15vw;
+    float:left;
+    width:7vw;
+}
+.screenshots .screen3 #screenshots_title{
+    position: relative;
+    top:-14vw;
+    left:48vw;
+}
+.screenshots .screen3 #screenshots_desc{
+    position:relative;
+    top:-14vw;
+    left:48vw;
+    width:20.5vw;
+    color:#353854;
+    line-height:1.5vw;
+}
+
+.floatingbox{
+    display: inline-block;
+    position: relative;
+    margin: 0vw;
+    width:40vw;
+    height:20vw;
+}
+
+.reviews h1{
+    position: relative;
+    top:0vw;;
+    left: 37vw;
+    width:25vw;
+    color:#648cff;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.reviews h2{
+    position: relative;
+    top:0vw;;
+    left: 44.5vw;
+    width:25vw;
+    color:#999999;
+    font-size:1.0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+.reviews h3{
+    position:relative;
+    top:0vw;
+    left:17vw;
+    width:26.5vw;
+    color:#353854;
+    line-height:1.5vw;
+    font-size:1.2vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.reviews h4{
+    position:relative;
+    top:0vw;
+    left:17vw;
+    width:26.5vw;
+    color:#353854;
+    line-height:1.5vw;
+    font-size:0.8vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+
+#colon1{
+    position: relative;
+    left:17vw;
+    top:3.5vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size:6.0vw;
+    color:#648cff;
+}
+#colon2{
+    position: relative;
+    left:42vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size:6.0vw;
+    color:#648cff;
+    transform: rotate(-180deg);
+}
+
+.download{
+    background-image:url(download/bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:25vw;
+}
+.download h1{
+    position: relative;
+    top:5vw;
+    left:15vw;
+    color:white;
+    font-size:1.6vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.download h2{
+    position: relative;
+    top:6vw;
+    left:15vw;
+    width:22vw;
+    color:white;
+    font-size:1.1vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+.download img{
+    position: relative;
+    top:7vw;
+    left:15vw;
+}
