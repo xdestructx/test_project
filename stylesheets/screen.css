@@ -1,0 +1,792 @@
+/* line 5, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/screen.scss */
+div {
+  height: 100vh;
+}
+
+/* line 7, ../sass/screen.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* line 10, ../sass/screen.scss */
+a:link a:visited a:hover a:active {
+  text-decoration: none;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* line 22, ../sass/screen.scss */
+.header {
+  height: 50vw;
+  background-image: url(../images/firstscreen/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* line 27, ../sass/screen.scss */
+.header ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  left: 21vw;
+  top: 0.5vw;
+}
+/* line 37, ../sass/screen.scss */
+.header li {
+  float: left;
+}
+/* line 39, ../sass/screen.scss */
+.header li a {
+  font-size: 1.17vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  display: block;
+  color: #e1e1e1;
+  text-align: center;
+  padding: 0.8vw 2.5vw;
+  text-decoration: none;
+}
+
+/* line 52, ../sass/screen.scss */
+.header_top {
+  height: 3vw;
+}
+/* line 54, ../sass/screen.scss */
+.header_top #navi {
+  height: 3vw;
+}
+/* line 58, ../sass/screen.scss */
+.header_top #logo {
+  height: 3vw;
+  position: relative;
+  float: left;
+  color: white;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  top: 1vw;
+  left: 18vw;
+}
+@media all and (min-width: 0px) and (max-width: 800px) {
+  /* line 71, ../sass/screen.scss */
+  .header_top #social {
+    position: relative;
+    top: -15px;
+    left: 70vw;
+  }
+}
+@media all and (min-width: 800px) {
+  /* line 79, ../sass/screen.scss */
+  .header_top #social {
+    position: relative;
+    top: -1.8vw;
+    left: 70vw;
+  }
+}
+/* line 87, ../sass/screen.scss */
+.header_top #social a {
+  padding: 0vw 1vw;
+}
+
+/* line 93, ../sass/screen.scss */
+.first_screen {
+  position: absolute;
+  height: 23vw;
+  width: 30vw;
+  top: 14vw;
+  left: 18vw;
+}
+/* line 99, ../sass/screen.scss */
+.first_screen #label_big {
+  height: 8vw;
+  width: 40vw;
+  color: white;
+  font-size: 3.5vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 108, ../sass/screen.scss */
+.first_screen #label_small {
+  position: relative;
+  height: 4vw;
+  width: 27vw;
+  top: 1vw;
+  color: white;
+  font-size: 1.2vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 119, ../sass/screen.scss */
+.first_screen #container {
+  position: relative;
+  top: 5vw;
+  height: 5vw;
+  width: 30vw;
+}
+/* line 124, ../sass/screen.scss */
+.first_screen #container ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0vw;
+  left: -2.5vw;
+  height: 6vw;
+  width: 40vw;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+/* line 141, ../sass/screen.scss */
+.first_screen #container li {
+  float: left;
+  top: 0px;
+  margin: 0;
+  padding: 0px;
+  width: 15vw;
+  height: 5vw;
+}
+/* line 150, ../sass/screen.scss */
+.first_screen #container a {
+  height: 3vw;
+}
+/* line 153, ../sass/screen.scss */
+.first_screen #container .downloads {
+  position: relative;
+}
+/* line 157, ../sass/screen.scss */
+.first_screen #download_txt {
+  position: relative;
+  z-index: 100;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8vw;
+  font-weight: bold;
+  top: -2.8vw;
+  left: 1.2vw;
+}
+/* line 168, ../sass/screen.scss */
+.first_screen #features_txt {
+  position: relative;
+  z-index: 100;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8vw;
+  font-weight: bold;
+  top: -2.8vw;
+  left: 1.3vw;
+}
+/* line 179, ../sass/screen.scss */
+.first_screen img {
+  position: relative;
+  width: 12.2vw;
+  height: 3.5vw;
+}
+/* line 184, ../sass/screen.scss */
+.first_screen .nav_button {
+  position: relative;
+  height: 4.5vw;
+  width: 4.5vw;
+  top: 13vw;
+  left: 30vw;
+}
+/* line 190, ../sass/screen.scss */
+.first_screen .nav_button img {
+  position: relative;
+  height: 4.5vw;
+  width: 4.5vw;
+}
+/* line 196, ../sass/screen.scss */
+.first_screen .nav_button a {
+  height: 4.5vw;
+  width: 4.5vw;
+}
+
+/* line 204, ../sass/screen.scss */
+.features {
+  height: 28vw;
+}
+/* line 207, ../sass/screen.scss */
+.features h1 {
+  position: absolute;
+  top: 53vw;
+  left: 43vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 218, ../sass/screen.scss */
+.features h2 {
+  position: absolute;
+  top: 56vw;
+  left: 46.5vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 229, ../sass/screen.scss */
+.features ul {
+  position: relative;
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  top: 13vw;
+  left: 17vw;
+  height: 20vw;
+  width: 80vw;
+}
+/* line 243, ../sass/screen.scss */
+.features img {
+  position: relative;
+  float: left;
+  width: 4vw;
+}
+/* line 249, ../sass/screen.scss */
+.features li {
+  float: left;
+  display: block;
+  height: 8vw;
+  width: 22vw;
+}
+/* line 255, ../sass/screen.scss */
+.features li strong {
+  position: relative;
+  top: 0vw;
+  left: 1.3vw;
+  font-size: 1.4vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #353854;
+}
+/* line 265, ../sass/screen.scss */
+.features li h3 {
+  position: relative;
+  float: left;
+  top: 0vw;
+  left: 1.3vw;
+  font-size: 0.8vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  color: #aeaeae;
+  width: 13.5vw;
+  line-height: 1.4vw;
+}
+
+/* line 280, ../sass/screen.scss */
+.widgets {
+  height: 45vw;
+}
+/* line 282, ../sass/screen.scss */
+.widgets h1 {
+  position: relative;
+  top: 0vw;
+  left: 43vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 293, ../sass/screen.scss */
+.widgets h2 {
+  position: relative;
+  top: 0vw;
+  left: 45.8vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 304, ../sass/screen.scss */
+.widgets img {
+  position: relative;
+  top: 2vw;
+  left: 24vw;
+  width: 52vw;
+  height: 45vw;
+}
+
+/* line 316, ../sass/screen.scss */
+.screenshots {
+  height: 160vw;
+}
+/* line 319, ../sass/screen.scss */
+.screenshots .screen1 {
+  height: 55vw;
+}
+/* line 322, ../sass/screen.scss */
+.screenshots .screen1 h1 {
+  position: relative;
+  top: 0vw;
+  left: 43vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 333, ../sass/screen.scss */
+.screenshots .screen1 h2 {
+  position: relative;
+  top: 0vw;
+  left: 43.5vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 344, ../sass/screen.scss */
+.screenshots .screen1 img {
+  position: relative;
+  left: 15vw;
+  top: 8vw;
+  float: left;
+  width: 42vw;
+}
+/* line 352, ../sass/screen.scss */
+.screenshots .screen1 #screenshots_icon {
+  position: relative;
+  left: 6vw;
+  top: 15vw;
+  float: left;
+  width: 7vw;
+}
+/* line 360, ../sass/screen.scss */
+.screenshots .screen1 #screenshots_title {
+  position: relative;
+  top: -20vw;
+  left: 48vw;
+}
+/* line 366, ../sass/screen.scss */
+.screenshots .screen1 #screenshots_desc {
+  position: relative;
+  top: -20vw;
+  left: 48vw;
+  width: 20.5vw;
+  color: #353854;
+  line-height: 1.5vw;
+}
+/* line 375, ../sass/screen.scss */
+.screenshots .screen2 {
+  height: 50vw;
+}
+/* line 378, ../sass/screen.scss */
+.screenshots .screen2 h1 {
+  position: relative;
+  top: 0vw;
+  left: 43vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 389, ../sass/screen.scss */
+.screenshots .screen2 h2 {
+  position: relative;
+  top: 0vw;
+  left: 43.5vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 400, ../sass/screen.scss */
+.screenshots .screen2 img {
+  position: relative;
+  left: 15vw;
+  top: 8vw;
+  float: left;
+  width: 62vw;
+}
+/* line 408, ../sass/screen.scss */
+.screenshots .screen2 #screenshots_icon {
+  position: relative;
+  left: -45vw;
+  top: 16vw;
+  float: left;
+  width: 2.8vw;
+}
+/* line 416, ../sass/screen.scss */
+.screenshots .screen2 #screenshots_title {
+  position: relative;
+  top: -15vw;
+  left: 17vw;
+}
+/* line 422, ../sass/screen.scss */
+.screenshots .screen2 #screenshots_desc {
+  position: relative;
+  top: -15vw;
+  left: 17vw;
+  width: 18.8vw;
+  color: #353854;
+  line-height: 1.5vw;
+}
+/* line 432, ../sass/screen.scss */
+.screenshots .screen3 {
+  height: 55vw;
+}
+/* line 436, ../sass/screen.scss */
+.screenshots h1 {
+  position: relative;
+  top: 0vw;
+  left: 43vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 447, ../sass/screen.scss */
+.screenshots h2 {
+  position: relative;
+  top: 0vw;
+  left: 43.5vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 458, ../sass/screen.scss */
+.screenshots img {
+  position: relative;
+  left: 15vw;
+  top: 8vw;
+  float: left;
+  width: 42vw;
+}
+/* line 466, ../sass/screen.scss */
+.screenshots #screenshots_icon {
+  position: relative;
+  left: 6vw;
+  top: 15vw;
+  float: left;
+  width: 7vw;
+}
+/* line 474, ../sass/screen.scss */
+.screenshots #screenshots_title {
+  position: relative;
+  top: -14vw;
+  left: 48vw;
+}
+/* line 480, ../sass/screen.scss */
+.screenshots #screenshots_desc {
+  position: relative;
+  top: -14vw;
+  left: 48vw;
+  width: 20.5vw;
+  color: #353854;
+  line-height: 1.5vw;
+}
+
+/* line 491, ../sass/screen.scss */
+.reviews {
+  height: 48vw;
+}
+/* line 494, ../sass/screen.scss */
+.reviews h1 {
+  position: relative;
+  top: 0vw;
+  left: 37vw;
+  width: 25vw;
+  color: #648cff;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 505, ../sass/screen.scss */
+.reviews h2 {
+  position: relative;
+  top: 0vw;
+  left: 44.5vw;
+  width: 25vw;
+  color: #999999;
+  font-size: 1.0vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 516, ../sass/screen.scss */
+.reviews h3 {
+  position: relative;
+  top: 0vw;
+  left: 17vw;
+  width: 26.5vw;
+  color: #353854;
+  line-height: 1.5vw;
+  font-size: 1.2vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 528, ../sass/screen.scss */
+.reviews h4 {
+  position: relative;
+  top: 0vw;
+  left: 17vw;
+  width: 26.5vw;
+  color: #353854;
+  line-height: 1.5vw;
+  font-size: 0.8vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 540, ../sass/screen.scss */
+.reviews .floatingbox {
+  display: inline-block;
+  position: relative;
+  margin: 0vw;
+  width: 40vw;
+  height: 20vw;
+}
+/* line 546, ../sass/screen.scss */
+.reviews .floatingbox #colon1 {
+  position: relative;
+  left: 17vw;
+  top: 2.5vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 6.0vw;
+  color: #648cff;
+}
+/* line 555, ../sass/screen.scss */
+.reviews .floatingbox #colon2 {
+  position: relative;
+  left: 42vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 6.0vw;
+  color: #648cff;
+  transform: rotate(-180deg);
+}
+
+/* line 573, ../sass/screen.scss */
+.download {
+  background-image: url(../images/download/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 23vw;
+}
+/* line 579, ../sass/screen.scss */
+.download h1 {
+  position: relative;
+  top: 5vw;
+  left: 15vw;
+  color: white;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+/* line 589, ../sass/screen.scss */
+.download h2 {
+  position: relative;
+  top: 6vw;
+  left: 15vw;
+  width: 22vw;
+  color: white;
+  font-size: 1.1vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 600, ../sass/screen.scss */
+.download img {
+  position: relative;
+  top: 7vw;
+  left: 15vw;
+}
+
+/* line 609, ../sass/screen.scss */
+.footer {
+  height: 20vw;
+  background-image: url(../images/footer/bg.gif);
+  background-repeat: repeat;
+  background-size: cover;
+}
+/* line 615, ../sass/screen.scss */
+.footer #footer_logo {
+  position: relative;
+  float: left;
+  color: #fc6a42;
+  font-size: 1.6vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  top: 4vw;
+  left: 15vw;
+}
+/* line 626, ../sass/screen.scss */
+.footer h1 {
+  position: relative;
+  float: right;
+  left: 0.2vw;
+  top: 0vw;
+  font-size: 1.6vw;
+  color: #648cff;
+}
+/* line 635, ../sass/screen.scss */
+.footer ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  left: 18vw;
+  top: 3.5vw;
+}
+/* line 645, ../sass/screen.scss */
+.footer li {
+  float: left;
+}
+/* line 648, ../sass/screen.scss */
+.footer li a {
+  font-size: 1.17vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  display: block;
+  color: #b5b5c8;
+  text-align: center;
+  padding: 0.8vw 2.5vw;
+  text-decoration: none;
+}
+/* line 660, ../sass/screen.scss */
+.footer #footer_social {
+  height: 2vw;
+}
+@media all and (min-width: 0px) and (max-width: 800px) {
+  /* line 660, ../sass/screen.scss */
+  .footer #footer_social {
+    position: relative;
+    top: -4.5vw;
+    left: 70vw;
+  }
+}
+@media all and (min-width: 800px) {
+  /* line 660, ../sass/screen.scss */
+  .footer #footer_social {
+    position: relative;
+    top: -3.3vw;
+    left: 70vw;
+  }
+}
+/* line 675, ../sass/screen.scss */
+.footer #footer_social a {
+  padding: 0vw 1vw;
+}
+/* line 680, ../sass/screen.scss */
+.footer #footer_navi {
+  height: 7.5vw;
+}
+/* line 684, ../sass/screen.scss */
+.footer #footer_bar {
+  position: relative;
+  left: 5vw;
+  height: 2vw;
+}
+/* line 690, ../sass/screen.scss */
+.footer #footer_desc {
+  height: 5vw;
+}
+/* line 693, ../sass/screen.scss */
+.footer #footer_desc h6 {
+  position: relative;
+  float: right;
+  top: 0vw;
+  right: 17vw;
+  width: 26.5vw;
+  color: #565b87;
+  line-height: 1.5vw;
+  font-size: 0.8vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+/* line 707, ../sass/screen.scss */
+.footer #footer_fly {
+  position: relative;
+  float: right;
+  right: -20vw;
+  top: 0vw;
+  height: 1.9vw;
+}
